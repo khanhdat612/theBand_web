@@ -1,0 +1,70 @@
+/* PC */
+@media (min-width: 1024px) {
+  .menu_search .menu_search-mobile {
+    display: none;
+  }
+}
+
+/* Tablet */
+
+@media (min-width: 739px) and (max-width: 1023px) {
+  .menu_search .menu_search-mobile {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+  #nav li {
+    display: block;
+  }
+
+  .search_nav .search_icon {
+    display: none;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  .row {
+    display: block;
+  }
+  #container .member_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    border: 1px solid #d51;
+  }
+  #container .member_list {
+    text-align: center;
+  }
+  .tuor_date_img .tour_img_date {
+    margin-bottom: 20px;
+  }
+
+  .contact_input .col-two {
+    margin-bottom: 8px;
+    width: 100%;
+  }
+  .input_1 {
+    margin-bottom: 8px;
+  }
+  .contact-form {
+    padding-bottom: 120px;
+    padding-left: 8px;
+  }
+  .text_container {
+    padding-top: 34px;
+  }
+  #slider .text_slider {
+    display: none;
+  }
+  .contact-info {
+    padding-left: 0;
+    margin-bottom: 8px;
+  }
+  #container #band {
+    padding-bottom: 0px;
+  }
+}
