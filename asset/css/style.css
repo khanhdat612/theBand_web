@@ -151,7 +151,7 @@ html {
   background-color: #ccc;
   transform: translateY(46px);
   padding-top: 50%; /*  Khi sử dụng" % " 50% thì kích thước dọc sẽ bằng 1 nửa chiều rộng  */
-  background-image: url(/asset/img/slider.jpg);
+  background-image: url(./img/slider.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
